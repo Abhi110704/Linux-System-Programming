@@ -1,0 +1,19 @@
+#Executables
+supervisor
+supervisor2
+supervisor3
+graceful
+forceful
+buggy
+leak
+threads
+
+#Object Files
+*.o
+
+#Temporary Files
+*.tmp
+perf.tmp
+
+#Generated Graphs
+*.png
