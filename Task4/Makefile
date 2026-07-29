@@ -1,3 +1,4 @@
+# Name: Abhiyanshu Anand | Roll No: MT26009
 CC = gcc
 CFLAGS = -Wall -pthread
 TARGET = threads

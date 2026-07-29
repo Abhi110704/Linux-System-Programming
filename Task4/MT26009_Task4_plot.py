@@ -1,17 +1,8 @@
-import csv
 import matplotlib.pyplot as plt
-threads=[]
-taskclock=[]
-context=[]
-faults=[]
-for f in ["thread1.csv","thread2.csv","thread4.csv","thread8.csv"]:
-	with open(f) as file:
-		reader = csv.DictReader(file)
-		for row in reader:
-			threads.append(int(row["Threads"]))
-			taskclock.append(float(row["TaskClock"]))
-			context.append(int(row["ContextSwitches"]))
-			faults.append(int(row["PageFaults"]))
+threads=[1,2,4,8]
+taskclock=[4614.46,509.33,510.26,1895.40]
+context=[0,0,0,0]
+faults=[630,630,635,643]
 plt.figure(figsize=(6,4))
 plt.plot(threads,taskclock,marker='o')
 plt.xlabel("Threads")
