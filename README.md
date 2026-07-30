@@ -11,7 +11,7 @@
 
 ## Repository Overview
 
-This repository contains the source code, scripts, and supporting files developed for Assignment 2 of the Systems Programming Refresher course. The assignment focuses on practical Linux system programming concepts, including process management, memory debugging, and multithreaded application performance analysis. :contentReference[oaicite:0]{index=0}
+This repository contains the source code, scripts, and supporting files developed for Assignment 2 of the Systems Programming Refresher course. The assignment focuses on practical Linux system programming concepts, including process management, memory debugging, and multithreaded application performance analysis.
 
 ---
 
